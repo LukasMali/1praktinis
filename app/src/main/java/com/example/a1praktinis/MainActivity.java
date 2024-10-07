@@ -1,5 +1,6 @@
 package com.example.a1praktinis;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -31,5 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnChangeTextClick(View view) {
         tvChangeText.setText("Labas, Android!");
+    }
+
+    public void onBtnChangeColorClick(View view) {
+        tvChangeText.setTextColor(Color.BLUE);
     }
 }
